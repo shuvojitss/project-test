@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.form-container {
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 6px 0;
+    box-sizing: border-box;
+}
+
+button, .records-button, .back-link {
+    display: inline-block;
+    padding: 10px 14px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+button:hover, .records-button:hover, .back-link:hover {
+    background-color: #2980b9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
