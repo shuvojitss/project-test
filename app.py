@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 # ✅ Initialize database and table if not exists
 def init_db():
-    conn = sqlite3.connect('database.db')
+    conn = sqlite3.connect('databaseer.db')
     c = conn.cursor()
     c.execute('''
         CREATE TABLE IF NOT EXISTS submissions (
